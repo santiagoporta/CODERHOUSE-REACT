@@ -3,7 +3,8 @@ import ItemCount from './ItemCount';
 import { Card, Image, Stack, Text,  CardBody, Divider, Button, ButtonGroup, CardFooter, Heading,} from '@chakra-ui/react';
 import { useParams } from 'react-router-dom';
 import { useContext } from 'react';
-import {CartContext} from '../context/ShoppingCartProvider'
+import {CartContext} from '../context/ShoppingCartContext'
+
 
 
 

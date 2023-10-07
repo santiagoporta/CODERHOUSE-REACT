@@ -3,9 +3,10 @@ import React from 'react'
 import { useContext } from 'react'
 import { CartContext } from '../context/ShoppingCartContext'
 
+
 const CartWidget = () => {
 
-  const {cart} = useContext(CartContext)
+  const cart = useContext(CartContext)
 
   return (
     <div>
