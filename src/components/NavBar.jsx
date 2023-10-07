@@ -27,9 +27,9 @@ const NavBar = () => {
                         Categorias
                     </MenuButton>
                     <MenuList>
-                        <Link to={"/category/A"}><MenuItem>Categoria A</MenuItem></Link>
-                        <Link to={"/category/B"}><MenuItem>Categoria B</MenuItem></Link>
-                        <Link to={"/category/C"}><MenuItem>Categoria C</MenuItem></Link>
+                        <Link to={"/category/A"}><MenuItem>Cervezas Rubias A</MenuItem></Link>
+                        <Link to={"/category/B"}><MenuItem>Cervezas Rojas B</MenuItem></Link>
+                        <Link to={"/category/C"}><MenuItem>Cervezas Negras C</MenuItem></Link>
                     </MenuList>
                 </Menu>
             </Box>

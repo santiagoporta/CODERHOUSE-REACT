@@ -13,7 +13,6 @@ const Item = ({product}) => {
     />
     <Stack mt='6' spacing='3'>
       <Heading size='md'>{product.title}</Heading>
-
       <Text color='blue.600' fontSize='2xl'>
         {/* ${product.price} */}
       </Text>
